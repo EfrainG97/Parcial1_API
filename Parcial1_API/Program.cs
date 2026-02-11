@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Parcial1_API.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.WebHost.UseUrls("http://0.0.0.0:5000", "https://0.0.0.0:5001");
 builder.Services.AddDbContext<AlumnoContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("AlumnoContext") ?? throw new InvalidOperationException("Connection string 'AlumnoContext' not found.")));
 

@@ -35,7 +35,14 @@ namespace Parcial1_API.Migrations
                 {
                     { 1, "Ingeniería", 20, 2024001, "Ana López" },
                     { 2, "Derecho", 22, 2024002, "Luis Pérez" },
-                    { 3, "Medicina", 21, 2024003, "María Gómez" }
+                    { 3, "Medicina", 21, 2024003, "María Gómez" },
+                    { 4, "Arquitectura", 23, 2024004, "Carlos Ruiz" },
+                    { 5, "Psicología", 19, 2024005, "Sofía Torres" },
+                    { 6, "Contaduría", 24, 2024006, "Jorge Díaz" },
+                    { 7, "Informática", 20, 2024007, "Valeria Ramos" },
+                    { 8, "Administración", 22, 2024008, "Miguel Sánchez" },
+                    { 9, "Biología", 21, 2024009, "Lucía Navarro" },
+                    { 10, "Economía", 23, 2024010, "Daniel Herrera" }
                 });
         }
 

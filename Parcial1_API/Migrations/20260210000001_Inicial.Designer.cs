@@ -11,7 +11,7 @@ using Parcial1_API.Data;
 namespace Parcial1_API.Migrations
 {
     [DbContext(typeof(AlumnoContext))]
-    [Migration("20260209234840_Inicial")]
+    [Migration("20260210000001_Inicial")]
     partial class Inicial
     {
         /// <inheritdoc />
@@ -72,6 +72,62 @@ namespace Parcial1_API.Migrations
                             Edad = 21,
                             Matricula = 2024003,
                             Nombre = "María Gómez"
+                        },
+                        new
+                        {
+                            ID = 4,
+                            Carrera = "Arquitectura",
+                            Edad = 23,
+                            Matricula = 2024004,
+                            Nombre = "Carlos Ruiz"
+                        },
+                        new
+                        {
+                            ID = 5,
+                            Carrera = "Psicología",
+                            Edad = 19,
+                            Matricula = 2024005,
+                            Nombre = "Sofía Torres"
+                        },
+                        new
+                        {
+                            ID = 6,
+                            Carrera = "Contaduría",
+                            Edad = 24,
+                            Matricula = 2024006,
+                            Nombre = "Jorge Díaz"
+                        },
+                        new
+                        {
+                            ID = 7,
+                            Carrera = "Informática",
+                            Edad = 20,
+                            Matricula = 2024007,
+                            Nombre = "Valeria Ramos"
+                        },
+                        new
+                        {
+                            ID = 8,
+                            Carrera = "Administración",
+                            Edad = 22,
+                            Matricula = 2024008,
+                            Nombre = "Miguel Sánchez"
+                        },
+                        new
+                        {
+                            ID = 9,
+                            Carrera = "Biología",
+                            Edad = 21,
+                            Matricula = 2024009,
+                            Nombre = "Lucía Navarro"
+                        },
+                        new
+                        {
+                            ID = 10,
+                            Carrera = "Economía",
+                            Edad = 23,
+                            Matricula = 2024010,
+                            Nombre = "Daniel Herrera"
                         });
                 });
 #pragma warning restore 612, 618
